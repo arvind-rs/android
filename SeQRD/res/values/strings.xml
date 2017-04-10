@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <string name="app_name"><b><u>SeQRD</u></b></string>
+    <string name="app_name1">SeQRD</string>
+    <string name="capture_name">QR Code Capture</string>
+    <string name="encoder_name">QR Code Encoder</string>
+    <string name="decoder_name">QR Code Decoder</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="msg_default_contents"></string>
+    <string name="msg_default_format"></string>
+    <string name="msg_default_meta"></string>
+    <string name="msg_default_mms_subject"></string>
+    <string name="msg_default_status"></string>
+    <string name="msg_default_time"></string>
+    <string name="msg_default_type"></string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="wifi_changing_network">Changing Network</string>
+    <string name="wifi_ssid_label">Network Name</string>
+    <string name="wifi_type_label">Type</string>
+    <string name="barcode_image">Barcode Image</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SeQRD</string>
+    <string name="title_activity_splash_screen">SeQRD</string>
+    <string name="title_activity_displaycontent">Displaycontent</string>
+    <string name="title_activity_about">About</string>
+    <string name="developers"><b>Developers</b></string>
+    <string name="name1">Arvind.R.S</string>
+    <string name="name2">Girish.G</string>
+    <string name="name3">Dilli Kumar.S</string>
+    <string name="version">version 1.0</string>
+    <string name="about"><u><b>About</b></u></string>
+    <string name="title_activity_main_activity1">SeQRD</string>
+    <string name="check">Analyse URL</string>
+    <string name="rescan">Scan Again</string>
+    <string name="back">Back</string>
+    <string name="title_activity_result1">Analysis Result</string>
+    <string name="title_activity_result2">Analysis Result</string>
+    <string name="title_activity_result3">Analysis Result</string>
+
+</resources>

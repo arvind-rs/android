@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.decoder.quick_response_code"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/qr"
+        android:label="@string/app_name1" >
+        <activity
+            android:name="com.decoder.quick_response_code.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/icon"
+            android:label="@string/capture_name"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.decoder.quick_response_code.SplashScreen.MainActivity.CaptureActivity" />
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.DecoderActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/icon"
+            android:label="@string/decoder_name"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.decoder.quick_response_code.SplashScreen.MainActivity.DecoderActivity" />
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.EncoderActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/icon"
+            android:label="@string/encoder_name"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.decoder.quick_response_code.SplashScreen.MainActivity.EncoderActivity" />
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.decoder.quick_response_code.SplashScreen.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.Displaycontent"
+            android:label="@string/title_activity_displaycontent" >
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.MainActivity1"
+            android:label="@string/title_activity_main_activity1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.Result1"
+            android:label="@string/title_activity_result1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.Result2"
+            android:label="@string/title_activity_result2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.decoder.quick_response_code.Result3"
+            android:label="@string/title_activity_result3"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>
